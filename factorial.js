@@ -1,11 +1,7 @@
 function factorial(){
-    var product = 0;
+    var product = 1;
     for(var i = 1; i <= 12; i++) {
-        if(product == 0){
-            product = i;
-        } else {
-            product *= i;
-        }
+        product *= i;
     }
     console.log(product);
 }
